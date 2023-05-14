@@ -1,5 +1,5 @@
 import numpy as np
-import streamlit.pyplot as plt
+import matplotlib.pyplot as plt
 import csv
 import math
 
