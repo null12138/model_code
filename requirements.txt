@@ -3,3 +3,5 @@ pandas
 Pillow
 matplotlib
 streamlit
+csv
+math
