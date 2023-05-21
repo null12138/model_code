@@ -63,8 +63,8 @@ def fitter(file,title):
     print("y的个数为：",len(y))
     return f_fitted_factor
 
-print(fitter("KS.csv","关键词：咳嗽"))
-print(fitter("FS.csv","关键词：发烧"))
-print(fitter("SZT.csv","关键词：嗓子疼"))
-print(fitter("GM.csv","关键词：感冒"))
-print(fitter("BS.csv","关键词：鼻塞"))
+print(fitter("./model_code/KS.csv","关键词：咳嗽"))
+print(fitter("./model_code/FS.csv","关键词：发烧"))
+print(fitter("./model_codemodel_codeSZT.csv","关键词：嗓子疼"))
+print(fitter("./model_code/GM.csv","关键词：感冒"))
+print(fitter("./model_code/BS.csv","关键词：鼻塞"))
